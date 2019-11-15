@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="ae_common" />
+        <module name="ae_framework_common" />
+        <module name="ae_framework_model" />
+        <module name="ae_framework_utils" />
+        <module name="ae_model" />
+        <module name="ae_service_api" />
+        <module name="ae_test" />
+        <module name="ae_utils" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="ae_common" target="1.8" />
+      <module name="ae_framework_common" target="1.8" />
+      <module name="ae_framework_model" target="1.8" />
+      <module name="ae_framework_parent" target="1.8" />
+      <module name="ae_framework_utils" target="1.8" />
+      <module name="ae_model" target="1.8" />
+      <module name="ae_parent" target="1.8" />
+      <module name="ae_service_api" target="1.8" />
+      <module name="ae_test" target="1.8" />
+      <module name="ae_utils" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
